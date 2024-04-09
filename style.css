@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: aquamarine;
+
+}
+
+.box1{
+color: rgb(185, 185, 14);
+padding: 10px;
+margin: 20px;
+border: 15px solid #da1010;
+height: 200px;
+
+box-sizing: border-box;
+/* box sizing: border-box mean the box's height will be 200px including padding and border*/
+
+}
+
+.box2{
+color: rgb(240, 172, 140);
+padding: 10px;
+margin: 10px;
+border: 5px solid #4d10da;
+height: 200px;
+
+/* box-sizing: border-box; */
+
+/* margin collapse means when there is two different size of margin then there will be apply the maximum size of margin........ such as margin a :10px ; margin b :12px; then the applying margin will be 12px because there will be apply  margin-collapse by default */
+
+}
